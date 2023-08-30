@@ -21,7 +21,7 @@ func main() {
 		}
 		// fmt.Println(i, "is prime")
 		foundPrimes++
-		for j := i * 2; j < max; j += i {
+		for j := i * i; j < max; j += i {
 			bs.Set(j)
 		}
 	}
